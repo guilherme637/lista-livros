@@ -1,3 +1,11 @@
+Para uttilizar esse projeto antes de tudo é necessário rodar o comando "composer install" no seu terminal para que as dependências desse projeto sejam instaladas.
+Depois de exectuar esse comando é necessário rodar tambem o comando "php artisan migrate" para que as tabelas do banco sejam criadas, caso as migrates não sejam executadas 
+não sera possivel fazer inserção de dados no banco de dados.
+Voce pode usar servidor direto do Laravel usando o comando "php artisan serve", esse comando criará um servidor local em sua maquina.
+Quando servirdor estiver funcionando basta acessar a rota http://127.0.0.1:8000/livros assim você poderá usufruir da aplicação.
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -39,7 +47,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
 - **[British Software Development](https://www.britishsoftware.co)**
 - **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
+- **[DevSquad](https://devsquad.com
 - [UserInsights](https://userinsights.com)
 - [Fragrantica](https://www.fragrantica.com)
 - [SOFTonSOFA](https://softonsofa.com/)
